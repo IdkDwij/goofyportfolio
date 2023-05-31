@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #191919;
+    font-family: 'Roboto';
+    font-size: 30px;
+    animation: fadeIn 5s;
+    font-family: Roboto, sans-serif;
+} p {
+    color:white;
+}
+img {
+    position: absolute;
+    margin-left: 50px;
+    transition: all 1s;
+    border: dashed white 3px;
+}
+img:hover {
+    border: none;
+    outline: 5px dashed white;
+    box-shadow: 0 0 0 5px #767676;
+}
