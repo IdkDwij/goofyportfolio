@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+button {
+    background-color: #313131;
+    border: 3px solid white;
+    transition: all 2s;
+} button:hover {
+    background-color: #191919;
+    border-color: aqua;
+    border-radius: 4px;
+    transition: all 2s;
+}
 body {
     background-color: #191919;
     font-family: 'Roboto';
