@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
 button {
     background-color: #313131;
     border: 3px solid white;
@@ -28,4 +29,9 @@ img:hover {
     border: none;
     outline: 5px dashed white;
     box-shadow: 0 0 0 5px #767676;
+}
+h1 {
+    color: white;
+    background: linear-gradient(90deg, rgba(240,0,218,1) 28%, rgba(0,212,255,1) 100%);
+    text-align: center;
 }
